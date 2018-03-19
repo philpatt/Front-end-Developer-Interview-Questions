@@ -30,13 +30,22 @@ Think seatbelt analogy - You don’t know if you will need it*.
 *2D/3D graphics and effects ¬– allowing a much more diverse range of presentation options*.
 
 *Performance and integration – providing greater speed optimization and better usage of computer hardware*.
+
 *Device access – allowing for the usage of various input and output devices*.
 
 *Styling – letting authors write more sophisticated themes*.
 
 * Describe the difference between a `cookie`, `sessionStorage` and `localStorage`.
-*
-*
+*sessionStorage, localStorage, and Cookies all are used to store data on the client side. Each one has its own storage and expiration limit*.
+
+*localStorage – stores data with no expiration date, and gets cleared only through Javascript, or clearing the Browser Cache / locally stored data*.
+
+*sessionStorage – similar to localStorage but expires when the browser closes (not the tab)*.
+
+*Cookie – stores data that has to be sent back to the server with subsequent requests. Its expiration varies bsed onteh type and the expiration duration can be set from either server-side or client-side (normally from server-side)*.
+
+
+
 
 * Describe the difference between `<script>`, `<script async>` and `<script defer>`.
 *
