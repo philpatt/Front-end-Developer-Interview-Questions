@@ -49,8 +49,11 @@ Think seatbelt analogy - You don’t know if you will need it*.
 
 
 * **Describe the difference between `<script>`, `<script async>` and `<script defer>`.**
-*
-*
+*`<script>` is default behavior of `<script>` element. Parsing of the HTML code pauses while the script is executing. For slow servers and heavy scripts this means that isplaying the webpage will be delayed*.
+
+*`<script defer>` Delaying script executing until the HTML parser has finished. Apositive effect of this attribute is that the DOM will be available for your script - however not every browser supports defer - is the equivalent of jQuery.ready()*
+
+*`<script async>` HTML parsing may continue and the script will be executed as asson as its ready. Recommended for scripts such as Google Analytics*
 
 * Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
 *
