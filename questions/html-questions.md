@@ -1,23 +1,23 @@
 # HTML Questions:
 
-* What does a `doctype` do?
+* **What does a `doctype` do?**
 
 *Required for legacy reasons. doctype ensures that the browser makes a best-effort attempt at following the relevant specifications. 
 Think seatbelt analogy - You don’t know if you will need it*.
 
-* How do you serve a page with content in multiple languages?
+* **How do you serve a page with content in multiple languages?**
 
 *Use the ‘lang’ attribute to set the language of the document*
 
-* What kind of things must you be wary of when design or developing for multilingual sites?
+* **What kind of things must you be wary of when design or developing for multilingual sites?**
 
 *Pay attention to dialectal differences (i.e. US English and British English*
 
-* What are `data-` attributes good for?
+* **What are `data-` attributes good for?**
 
 *Gives developer ability to store extra information that doesn’t have any visual representation*
 
-* Consider HTML5 as an open web platform. What are the building blocks of HTML5?
+* **Consider HTML5 as an open web platform. What are the building blocks of HTML5?**
 
 *Semantics – allowing you to describe more precisiely what your content is*.
 
@@ -35,7 +35,8 @@ Think seatbelt analogy - You don’t know if you will need it*.
 
 *Styling – letting authors write more sophisticated themes*.
 
-* Describe the difference between a `cookie`, `sessionStorage` and `localStorage`.
+* **Describe the difference between a `cookie`, `sessionStorage` and `localStorage`.**
+
 *sessionStorage, localStorage, and Cookies all are used to store data on the client side. Each one has its own storage and expiration limit*.
 
 *localStorage – stores data with no expiration date, and gets cleared only through Javascript, or clearing the Browser Cache / locally stored data*.
@@ -47,7 +48,7 @@ Think seatbelt analogy - You don’t know if you will need it*.
 
 
 
-* Describe the difference between `<script>`, `<script async>` and `<script defer>`.
+* **Describe the difference between `<script>`, `<script async>` and `<script defer>`.**
 *
 *
 
