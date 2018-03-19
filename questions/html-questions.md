@@ -1,6 +1,7 @@
 # HTML Questions:
 
-* What does a `doctype` do?.
+* What does a `doctype` do?
+
 *Required for legacy reasons. doctype ensures that the browser makes a best-effort attempt at following the relevant specifications. 
 Think seatbelt analogy - You don’t know if you will need it*.
 
