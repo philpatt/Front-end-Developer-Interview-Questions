@@ -1,6 +1,9 @@
 # HTML Questions:
 
 * What does a `doctype` do?
+Required for legacy reasons. doctype ensures that the browser makes a best-effort attempt at following ¬¬the relevant specifications. 
+Think seatbelt analogy – You don’t know if you will need it
+
 * How do you serve a page with content in multiple languages?
 * What kind of things must you be wary of when design or developing for multilingual sites?
 * What are `data-` attributes good for?
