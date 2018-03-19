@@ -45,10 +45,8 @@ Think seatbelt analogy - You don’t know if you will need it*.
 
 *Cookie – stores data that has to be sent back to the server with subsequent requests. Its expiration varies bsed onteh type and the expiration duration can be set from either server-side or client-side (normally from server-side)*.
 
-
-
-
 * **Describe the difference between `<script>`, `<script async>` and `<script defer>`.**
+
 *`<script>` is default behavior of `<script>` element. Parsing of the HTML code pauses while the script is executing. For slow servers and heavy scripts this means that isplaying the webpage will be delayed*.
 
 *`<script defer>` Delaying script executing until the HTML parser has finished. Apositive effect of this attribute is that the DOM will be available for your script - however not every browser supports defer - is the equivalent of jQuery.ready()*
@@ -56,12 +54,14 @@ Think seatbelt analogy - You don’t know if you will need it*.
 *`<script async>` HTML parsing may continue and the script will be executed as asson as its ready. Recommended for scripts such as Google Analytics*
 
 * Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
-*
-*
 
+*CSS `<link>`s should be in between `<head></head>` to prevent Flash of Unstyled Content which gives the user something to look at while the rest of the page is being parsed*
+
+*Since Javascript blocks rendering by default, and the DOM and CSSOM construction can be also be delayed, it usually best to keep scripts at the bottom of the page*
+
+*Exceptions are if you grab the scripts asynchronously, or at least defer them to the end oof the page*
 * What is progressive rendering?
-*
-*
+**
 
 * Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
 
