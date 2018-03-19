@@ -53,7 +53,7 @@ Think seatbelt analogy - You don’t know if you will need it*.
 
 *`<script async>` HTML parsing may continue and the script will be executed as asson as its ready. Recommended for scripts such as Google Analytics*
 
-* Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
+* **Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?**
 
 *CSS `<link>`s should be in between `<head></head>` to prevent Flash of Unstyled Content which gives the user something to look at while the rest of the page is being parsed*
 
@@ -61,14 +61,14 @@ Think seatbelt analogy - You don’t know if you will need it*.
 
 *Exceptions are if you grab the scripts asynchronously, or at least defer them to the end oof the page*
 
-* What is progressive rendering?
+* **What is progressive rendering?**
 *Progressive rendering of HTML is chunking the HTMl into separate bits and loading each chunk as its finished. Usually, the backend code loads the HTMl at once, but if you flush after finishing one part of the structre, it can be rendered immediately to the page*
 
-* Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
+* **Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.**
 
 *`srcset` allows you to specify different kind of images for different screen-sizes/orientation/display-types. The usage is really simple, you just provide a lot of diffeent images separating them with a comma like this: `<img src="image.jpg" alt="image" srcset="<img> <descriptor>, ..., <img_n> <descriptor_n>">` Here is an example: `srcset="image.jpg 160w, image2.jpg 320w, image3.jpg 2x"`*
 
-* Have you used different HTML templating languages before?
+* **Have you used different HTML templating languages before?**
 
 *I have experience using Embedded Javascript (EJS). This Templating language lets you generatl HTML markup with plain javascript. I typically use this with Node.js and React.js*
 
